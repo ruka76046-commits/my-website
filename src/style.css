@@ -79,3 +79,41 @@ footer {
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
+
+
+.chart-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group input,
+.form-group select,
+.form-group button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.form-group button:hover {
+  background-color: #2563eb;
+}
